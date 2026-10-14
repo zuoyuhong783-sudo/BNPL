@@ -1,0 +1,16 @@
+{
+  "identity_verified": true,
+  "age": 28,
+  "linked_card_type": "Credit",
+  "account_age_months": 12,
+  "repayment_fulfilment_rate": null,
+  "average_monthly_spending": null,
+  "completed_order_count": null,
+  "consecutive_on_time_repayments": null,
+  "adverse_credit_incidents_6m": 0,
+  "device_stability": "Stable",
+  "current_credit_limit": null,
+  "available_credit_limit": null,
+  "external_credit_score": null,
+  "external_overdue_record": null
+}

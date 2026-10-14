@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ff6500">
+    <title>先用后付 · 专家系统演示</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="/" aria-label="返回首页">
+          <span class="brand-mark" aria-hidden="true">橙</span>
+          <span class="brand-name">橙信<span class="brand-sub">先用后付实验室</span></span>
+        </a>
+        <span class="header-tag">CDS521 · 课堂原型</span>
+      </div>
+    </header>
+
+    <main class="main-shell">
+      <section class="page-intro" aria-labelledby="page-title">
+        <div class="intro-kicker"><span class="kicker-line"></span> BNPL EXPERT SYSTEM</div>
+        <h1 id="page-title">从申请资料，到清晰的额度决定。</h1>
+        <p>选一类示例用户开始，也可以在提交前逐项修改。系统会展示触发的规则、CF 计算及最终额度。</p>
+        <div class="demo-notice" role="note">
+          <strong>公开演示提醒</strong>
+          <span>请仅使用虚构测试数据，不要输入真实个人或征信资料。提交后，资料会发送至演示服务器即时计算；本程序不建立申请记录。</span>
+        </div>
+      </section>
+
+      <div class="workspace">
+        <aside class="journey" aria-label="办理进度">
+          <div class="journey-title">办理流程</div>
+          <ol id="progress-list" class="progress-list"></ol>
+          <div class="journey-note">
+            <span class="note-icon" aria-hidden="true">i</span>
+            <p>本页面仅供课程演示，不构成真实授信决定；请勿填写真实个人资料。</p>
+          </div>
+        </aside>
+
+        <section class="panel" aria-live="polite">
+          <div class="panel-topline">
+            <span id="step-count">步骤 1 / 5</span>
+            <span id="profile-pill" class="profile-pill" hidden></span>
+          </div>
+          <div id="step-content"></div>
+          <div id="form-error" class="form-error" role="alert" hidden></div>
+          <div id="step-actions" class="step-actions"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <span>规则引擎 CLIPS · Python 集成</span>
+      <span>课堂演示，不构成真实授信决定</span>
+    </footer>
+  </body>
+</html>

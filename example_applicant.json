@@ -1,0 +1,17 @@
+{
+  "identity_verified": true,
+  "age": 28,
+  "linked_card_type": "Credit",
+  "account_age_months": 18,
+  "repayment_fulfilment_rate": 0.99,
+  "average_monthly_spending": 2600,
+  "completed_order_count": 135,
+  "consecutive_on_time_repayments": 8,
+  "adverse_credit_incidents_6m": 0,
+  "device_stability": "Stable",
+  "current_credit_limit": 5000,
+  "available_credit_limit": 2000,
+  "external_credit_score": 820,
+  "external_overdue_record": "None"
+}
+
